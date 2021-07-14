@@ -3,10 +3,10 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>Do It Django</title>
+    <title>궁물쌤</title>
 
     <link rel="stylesheet" href="{% static 'blog/bootstrap/bootstrap.min.css' %}" media="screen">
-    <link rel="stylesheet" href="{% static 'single_pages/css/landing.css' %}" media="screen">
+    <link rel="stylesheet" href="{% static 'single_pages/css/landing2.css' %}" media="screen">
     <script src="https://kit.fontawesome.com/726bbd6862.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -16,13 +16,13 @@
 <section>
     <div class="container">
         <div class="row justify-content-between">
-            <div class="col-lg-6 text-light">
-                <h1 class="mt-5">Do It Django</h1>
-                <p>파이썬 진영의 가장 대표적인 웹프레임워크 중 하나인 django를 이용하여 여러분만의 블로그 사이트를 만들어보세요.</p>
+            <div class="col-lg-6 text-dark">
+                <h1 class="mt-5">궁물쌤에게 물어보세요.</h1>
+                <p>운세가 궁금한 것이 있으면 물어보세요 쌤에게!!!</p>
             </div>
 
             <div class="col-lg-5 mt-5">
-                <h2 class="text-light">Blog - Recent posts</h2>
+                <h2 class="text-dark">-Recent posts</h2>
                 {% for post in recent_posts %}
                     <div class="card mt-1">
                         <div class="card-body">

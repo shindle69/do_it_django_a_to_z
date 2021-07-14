@@ -3,7 +3,7 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title> About 달타냥 </title>
+    <title> About 궁물쌤 </title>
 
     <link rel="stylesheet" href="{% static 'blog/bootstrap/bootstrap.min.css' %}" media="screen">
     <link rel="stylesheet" href="{% static 'single_pages/css/about_me.css' %}" media="screen">
@@ -17,34 +17,38 @@
     <div class="container mt-4">
         <div class="row">
             <div class="col-lg-8">
-                <h1>안녕하세요. 달타냥입니다.</h1>
+                <h1>안녕하세요. 궁물쌤입니다.</h1>
                 <br/>
                 <p class="lead">
-                    음악과 컴퓨터와 수영을 좋아합니다.<br/>
-                    데이터분석으로 돈을 벌고, 퇴근 후에는 운동을 하거나 책을 쓰면서 지냅니다.
+                    궁물쌤이란 [궁금한 것을 물어보세요 선생님(쌤)] 줄임말입니다.<br/>
+                    궁물쌤 케릭터는 용한타로 스마트폰 어플리케이션 1.0버전에서 사용한 케릭터입니다.
                 </p>
 
                 <ul>
-                    <li>WORK EXPERIENCE</li>
+                    <li>History</li>
                     <ul>
-                        <li>크고좋은회사 - 빅데이터분석 (2019.10 ~)</li>
-                        <li>모모공공기관 (2016.02 ~ 2019.09)</li>
+                        <li>용한타로 </li>
+                        <li>용한띠별운세 (https://play.google.com/store/apps/details?id=com.mssoft.todaysaju)</li>
+                        <li>용한토정비결 (https://play.google.com/store/apps/details?id=com.mssoft.fatesaju)</li>
+                        <li>용한손금 (https://play.google.com/store/apps/details?id=com.mssoft.palmline)</li>
+                        <li>용한꿈풀이 (https://play.google.com/store/apps/details?id=com.mssoft.dreamread)</li>
+                        <li>용한이름풀이-사주,작명 (https://play.google.com/store/apps/details?id=com.mssoft.nameread)</li>
                     </ul>
-                    <li>EDUCATION</li>
+                    <li>Education</li>
                     <ul>
-                        <li>공학박사, 장고공학(Django Engineering), 파이썬대학교 (2010.03~2015.09)</li>
-                        <li>공학석사, 장고공학(Django Engineering), 파이썬대학교 (2007.09~2009.08)</li>
-                        <li>공학학사, 장고공학(Django Engineering), 파이썬대학교 (2003.03~2007.08)</li>
+                        <li>대동학회 (www.iching.kr)</li>
+
                     </ul>
-                    <li>PUBLISH</li>
+                    <li>Publish</li>
                     <ul>
-                        <li>DO IT DJANGO, 이지스퍼블리싱 (2020)</li>
+                        <li>주역(대동정신문화학회)</li>
+                        <li>명리(대동정신문화학회)</li>
                     </ul>
                 </ul>
 
             </div>
             <div class="col-lg-4">
-                <img class="img-fluid" src="{% static 'single_pages/images/my_back.png' %}">
+                <img class="img-fluid" src="{% static 'single_pages/images/icon.png' %}">
             </div>
         </div>
     </div>
@@ -60,44 +64,48 @@
         <div class="row">
             <div class="col-lg-4">
                 <div class="card" data-toggle="modal" data-target="#pycon2017">
-                    <img class="card-img-top" src="{% static 'single_pages/images/pycon_sy_2017.png' %}">
+                    <img class="card-img-top" src="{% static 'single_pages/images/tarot_main_2.png' %}">
                     <div class="card-body">
-                        <h5 class="card-title">파이썬으로 통계업무 자동화하기 [PYCON 2017]</h5>
-                        <p>Python, Django, Pandas, python-docx로 통계업무 자동화한 내용을 파이콘에서 발표했습니다.</p>
+                        <h5 class="card-title">용한타로</h5>
+                        <p>
+                            용한씨리즈 중에서 용한타로는 주역점과 타로점은 점을 치는 원리가 유사합니다.
+                        </p>
                     </div>
                 </div>
             </div>
 
             <div class="col-lg-4">
                 <div class="card" data-toggle="modal" data-target="#inflearn_django2">
-                    <img class="card-img-top" src="{% static 'single_pages/images/inflearn_django2.png' %}">
+                    <img class="card-img-top" src="{% static 'single_pages/images/today_main.png' %}">
                     <div class="card-body">
-                        <h5 class="card-title">파이썬 사용자를 위한 웹개발 입문 A to Z Django + Bootstrap</h5>
-                        <p>파이썬 웹개발에 대한 인프런 동영상 강의입니다.</p>
+                        <h5 class="card-title">용한띠별운세</h5>
+                        <p>오늘의운세를 띠별로 볼 수 있도록 구성하였습니다.</p>
                     </div>
                 </div>
             </div>
 
             <div class="col-lg-4">
                 <div class="card" data-toggle="modal" data-target="#automation_python">
-                    <img class="card-img-top" src="{% static 'single_pages/images/automation_python.png' %}">
+                    <img class="card-img-top" src="{% static 'single_pages/images/tojung_main.png' %}">
                     <div class="card-body">
-                        <h5 class="card-title">직장인을 위한 프로그래밍 입문과 업무자동화 활용</h5>
-                        <p>파이썬 업무자동화에 대한 인프런 동영상 강의입니다.</p>
+                        <h5 class="card-title">용한토정비결</h5>
+                        <p>
+                            토정 이지함의 술서를 바탕으로 하여 144괘를 현대적 의미로 알기 쉽게 풀이하였습니다.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
-
     </div>
 </section>
+
 
 <!-- Modal -->
 <div class="modal fade" id="pycon2017" tabindex="-1" role="dialog" aria-labelledby="pycon2017ModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="pycon2017ModalLabel">파이썬으로 통계업무 자동화하기</h5>
+                <h5 class="modal-title" id="pycon2017ModalLabel">용한타로</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -105,10 +113,15 @@
             <div class="modal-body">
                 <div class="row">
                     <div class="col-lg-7">
-                        <img class="img-fluid" src="{% static 'single_pages/images/pycon_sy_2017.png' %}">
+                        <img class="img-fluid" src="{% static 'single_pages/images/tarot_main_2.png' %}">
                     </div>
                     <div class="col-lg-5">
-                        <p>Python, Django, Pandas, python-docx로 통계업무 자동화한 내용을 파이콘에서 발표했습니다.</p>
+                        <p>용한씨리즈 중에서 용한타로를 출시 주역점과 타로점은 점을 치는 것이 유사합니다.
+                           얻고자하는 점을 정하고 천지의 기운을 받아서 점의 결과를 얻는 것입니다.
+                           하나를 알면 열을 알 수 있다는 것이 주역의 원리이며
+                           천지의 기운을 받아 약간의 징조를 얻는 것입니다.
+                           이 결과를 이용하여 미래에 대한 예언을 하는 것입니다
+                        </p>
                     </div>
                 </div>
             </div>
@@ -123,7 +136,7 @@
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id=" inflearnDjangoModalLabel">파이썬 사용자를 위한 웹개발 입문 A to Z Django + Bootstrap</h5>
+                <h5 class="modal-title" id=" inflearnDjangoModalLabel">용한띠별운세</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -131,11 +144,10 @@
             <div class="modal-body">
                 <div class="row">
                     <div class="col-lg-7">
-                        <img class="img-fluid" src="{% static 'single_pages/images/inflearn_django2.png' %}">
+                        <img class="img-fluid" src="{% static 'single_pages/images/today_main.png' %}">
                     </div>
                     <div class="col-lg-5">
-                        <p>파이썬 초보를 대상으로 한 웹개발 강좌입니다. 인프런에서 서비스하고 있습니다.</p>
-                        <button type="button" class="btn btn-light"><i class="fas fa-chalkboard-teacher"></i> 인프런</button>
+                        <p>[용한씨리즈] 오늘의운세를 띠별로 볼 수 있도록 구성하였습니다.</p>
                     </div>
                 </div>
             </div>
@@ -151,7 +163,7 @@
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id=" automationPythonModalLabel">직장인을 위한 프로그래밍 입문과 업무자동화 활용</h5>
+                <h5 class="modal-title" id=" automationPythonModalLabel">용한토정비결</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -159,11 +171,14 @@
             <div class="modal-body">
                 <div class="row">
                     <div class="col-lg-7">
-                        <img class="img-fluid" src="{% static 'single_pages/images/automation_python.png' %}">
+                        <img class="img-fluid" src="{% static 'single_pages/images/tojung_main.png' %}">
                     </div>
                     <div class="col-lg-5">
-                        <p>코딩에 대해 아무것도 모르는 직장인들도 쉽게 프로그래밍의 기본 개념과 문법을 실습을 통해 배우고, 파일 입출력, 엑셀 데이터 처리, MS-word 문서 자동으로 만들기, 그래프 그리기, 웹스크래핑 등을 배웁니다.</p>
-                        <button type="button" class="btn btn-light"><i class="fas fa-chalkboard-teacher"></i> 인프런</button>
+                        <p>
+                            토정 이지함의 술서를 바탕으로 하여 144괘를 현대적 의미로 알기 쉽게 풀이하였습니다.
+                            인생의 길흉지사를 144괘로 분석하고 각 괘마다 12개월에 따라 재해석하여
+                            현대인들이 더 쉽게 이해 할 수 있도록 풀이 하였습니다.
+                        </p>
                     </div>
                 </div>
             </div>
