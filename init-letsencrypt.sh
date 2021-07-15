@@ -15,14 +15,14 @@
     ><h2 class="container-buybox__content-heading"><a
             class="container-buybox__content-link"
             target="_blank"
-            href="http://www.above.com/marketplace/githubbusercontent.com"
+            href="http://www.kungmul.com"
                 >
         이 도메인 구입
     </a></h2><p class="container-buybox__content-text"><a
             class="container-buybox__content-link
             container-buybox__content-link--no-decoration
             "
-            href="http://www.above.com/marketplace/githubbusercontent.com"
+            href="http://www.kungmul.com"
             target="_blank"
                 >
 
